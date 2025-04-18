@@ -63,7 +63,7 @@
         <java.target.version>1.8</java.target.version>
         <jctools.version>2.1.1</jctools.version>
         <jmh.version>1.20</jmh.version>
-        <jna.version>5.5.0</jna.version>
+        <jna.version>5.17.0</jna.version>
         <jsr305.version>3.0.2</jsr305.version>
         <junit.dep.version>4.8.2</junit.dep.version>
         <junit.version>4.13.1</junit.version>
@@ -74,7 +74,7 @@
         <powermock.version>1.6.0</powermock.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.encoding>UTF-8</project.encoding>
-        <protobuf.version>3.5.1</protobuf.version>
+        <protobuf.version>4.29.3</protobuf.version>
         <protostuff.version>1.6.0</protostuff.version>
         <rocksdb.version>8.8.1</rocksdb.version>
         <slf4j.version>1.7.21</slf4j.version>

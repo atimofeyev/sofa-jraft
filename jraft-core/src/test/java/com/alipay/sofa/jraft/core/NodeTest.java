@@ -3463,7 +3463,7 @@ public class NodeTest {
     }
 
     @Test
-    public void testChangePeersChaosApplyTasks() throws Exception {
+    public void     testChangePeersChaosApplyTasks() throws Exception {
         // start cluster
         final List<PeerId> peers = new ArrayList<>();
         peers.add(new PeerId("127.0.0.1", TestUtils.INIT_PORT));
