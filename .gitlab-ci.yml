@@ -1,0 +1,24 @@
+image:
+  name: maven:3.8.3-openjdk-8
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - mvn --settings config/settings.xml -Drevision=$CI_COMMIT_TAG clean build
+  only:
+    - tags
+  tags:
+    - docker
+
+deploy:
+  stage: deploy
+  script:
+    - mvn --settings config/settings.xml -Drevision=$CI_COMMIT_TAG -DskipTests deploy
+  only:
+    - tags
+  tags:
+    - docker
